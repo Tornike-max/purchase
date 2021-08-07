@@ -6,6 +6,10 @@
     .sales1{
         max-width:345px;
     }
+    .last-man{
+        max-width:600px;
+    }
+   
 }
 
 @media only screen and (max-width: 1316px){
@@ -15,6 +19,9 @@
     }
     .sales1{
         max-width:300px;
+    }
+    .last-man{
+        max-width:500px;
     }
 }
 @media only screen and (max-width:1211px){
@@ -124,18 +131,26 @@
     .wrap{
         max-width: 200px;
     }
+    .last-man{
+        max-width:350px;
+        
+    }
 
 }
 
 @media only screen and (max-width:988px){
     .man{
-        width:350px;
+        width:330px;
     }
     .blue-man{
         width:350px;
     }
     .man3{
         width:350px;
+    }
+    .last-man{
+        max-width:350px;
+       
     }
 }
 
@@ -234,6 +249,10 @@
     .page{
         font-size:20px;
     }
+    .last-man{
+        max-width:350px;
+        
+    }
 }
 
 @media only screen and (max-width:973px){
@@ -250,8 +269,23 @@
 }
 
 @media only screen and (max-width:937px){
-    .nav-ul{
+    .navbar-links{
         display: none;
+    }
+    .toggle-button{
+        display: block;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-ul{
+        flex-direction: column;
+    }
+    .nav-li{
+        text-align: center;
+    }
+    .navbar-links.active{
+        display: block;
     }
 }
 
